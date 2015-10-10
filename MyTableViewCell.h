@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class model;
+
 
 @interface MyTableViewCell : UITableViewCell
+
+@property (nonatomic, strong) model *modelData;
+
+//- (void)setweibo:(model *)modelData;
 
 @end

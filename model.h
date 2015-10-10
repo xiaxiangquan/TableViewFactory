@@ -10,4 +10,14 @@
 
 @interface model : NSObject
 
+@property (nonatomic, strong) NSString *icon;
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *text;
+@property (nonatomic, strong) NSString *pic;
+
+
+- (instancetype) initWithDict:(NSDictionary *)dict;
++ (instancetype) modelWithDict:(NSDictionary *)dict;
+
+
 @end

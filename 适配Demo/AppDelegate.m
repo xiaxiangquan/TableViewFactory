@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "MainVC.h"
+
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define ScreenWidth  [[UIScreen mainScreen] bounds].size.width
+
+
 
 @interface AppDelegate ()
 
@@ -15,8 +21,30 @@
 @implementation AppDelegate
 
 
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    AppDelegate *myDelegate = [[UIApplication sharedApplication] delegate];
+    if (ScreenHeight > 480) {
+        
+        myDelegate.autoSizeScaleX = ScreenWidth  / 320;
+        myDelegate.autoSizeScaleY = ScreenHeight / 568;
+    } else {
+        
+        myDelegate.autoSizeScaleX = 1.0;
+        myDelegate.autoSizeScaleY = 1.0;
+    }
+    
+//    MainVC *main = [[MainVC alloc] init];
+//    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:main];
+//    [self.window setRootViewController:navi];
+//    [self.window makeKeyAndVisible];
+    
+    
+    
     return YES;
 }
 

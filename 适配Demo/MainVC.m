@@ -17,6 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.view setBackgroundColor:[UIColor whiteColor]];
+    
+    
+    
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake1(0, 80, self.view.bounds.size.width, 100)];
+    [self.view addSubview:view];
+    [view setBackgroundColor:[UIColor orangeColor]];
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setFrame:CGRectMake1(10, view.frame.size.height + 80 + 15, self.view.bounds.size.width - 20, 44)];
+    [btn setBackgroundColor:[UIColor orangeColor]];
+    [self.view addSubview:btn];
+    
 }
 
 - (void)didReceiveMemoryWarning {

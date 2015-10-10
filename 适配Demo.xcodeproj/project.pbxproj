@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A3AD3811A89AEC900FF93CA /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3AD3801A89AEC900FF93CA /* MyTableViewCell.m */; };
+		7A3AD3841A89B88100FF93CA /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3AD3831A89B88100FF93CA /* model.m */; };
+		7A3AD3861A89E1B000FF93CA /* 9654c5b5efbcb1f.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7A3AD3851A89E1B000FF93CA /* 9654c5b5efbcb1f.jpeg */; };
+		7AA7DE151A8B4B3200B5CF01 /* NSObject+ScreenRatio.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA7DE141A8B4B3200B5CF01 /* NSObject+ScreenRatio.m */; };
+		7AA7DE181A8B4FF800B5CF01 /* AppDelegate+ScreenRatio.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA7DE171A8B4FF800B5CF01 /* AppDelegate+ScreenRatio.m */; };
+		7AABF4811A8C3FF3002BF64C /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AABF4801A8C3FF3002BF64C /* MainVC.m */; };
 		7AC113A31A7CCFC400A6AB7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC113A21A7CCFC400A6AB7F /* main.m */; };
 		7AC113A61A7CCFC400A6AB7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC113A51A7CCFC400A6AB7F /* AppDelegate.m */; };
 		7AC113A91A7CCFC400A6AB7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC113A81A7CCFC400A6AB7F /* ViewController.m */; };
@@ -27,6 +33,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A3AD37F1A89AEC900FF93CA /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		7A3AD3801A89AEC900FF93CA /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		7A3AD3821A89B88100FF93CA /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
+		7A3AD3831A89B88100FF93CA /* model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = "<group>"; };
+		7A3AD3851A89E1B000FF93CA /* 9654c5b5efbcb1f.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9654c5b5efbcb1f.jpeg; sourceTree = "<group>"; };
+		7AA7DE131A8B4B3200B5CF01 /* NSObject+ScreenRatio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ScreenRatio.h"; sourceTree = "<group>"; };
+		7AA7DE141A8B4B3200B5CF01 /* NSObject+ScreenRatio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ScreenRatio.m"; sourceTree = "<group>"; };
+		7AA7DE161A8B4FF800B5CF01 /* AppDelegate+ScreenRatio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ScreenRatio.h"; sourceTree = "<group>"; };
+		7AA7DE171A8B4FF800B5CF01 /* AppDelegate+ScreenRatio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+ScreenRatio.m"; sourceTree = "<group>"; };
+		7AABF47F1A8C3FF3002BF64C /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		7AABF4801A8C3FF3002BF64C /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		7AABF4821A8C4BC0002BF64C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		7AC1139D1A7CCFC400A6AB7F /* 适配Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "适配Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC113A11A7CCFC400A6AB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AC113A21A7CCFC400A6AB7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +81,12 @@
 		7AC113941A7CCFC400A6AB7F = {
 			isa = PBXGroup;
 			children = (
+				7AABF4821A8C4BC0002BF64C /* PrefixHeader.pch */,
+				7A3AD3851A89E1B000FF93CA /* 9654c5b5efbcb1f.jpeg */,
+				7A3AD37F1A89AEC900FF93CA /* MyTableViewCell.h */,
+				7A3AD3801A89AEC900FF93CA /* MyTableViewCell.m */,
+				7A3AD3821A89B88100FF93CA /* model.h */,
+				7A3AD3831A89B88100FF93CA /* model.m */,
 				7AC1139F1A7CCFC400A6AB7F /* 适配Demo */,
 				7AC113B91A7CCFC500A6AB7F /* 适配DemoTests */,
 				7AC1139E1A7CCFC400A6AB7F /* Products */,
@@ -81,6 +105,10 @@
 		7AC1139F1A7CCFC400A6AB7F /* 适配Demo */ = {
 			isa = PBXGroup;
 			children = (
+				7AABF47F1A8C3FF3002BF64C /* MainVC.h */,
+				7AABF4801A8C3FF3002BF64C /* MainVC.m */,
+				7AA7DE161A8B4FF800B5CF01 /* AppDelegate+ScreenRatio.h */,
+				7AA7DE171A8B4FF800B5CF01 /* AppDelegate+ScreenRatio.m */,
 				7AC113A41A7CCFC400A6AB7F /* AppDelegate.h */,
 				7AC113A51A7CCFC400A6AB7F /* AppDelegate.m */,
 				7AC113A71A7CCFC400A6AB7F /* ViewController.h */,
@@ -89,6 +117,8 @@
 				7AC113AD1A7CCFC400A6AB7F /* Images.xcassets */,
 				7AC113AF1A7CCFC400A6AB7F /* LaunchScreen.xib */,
 				7AC113A01A7CCFC400A6AB7F /* Supporting Files */,
+				7AA7DE131A8B4B3200B5CF01 /* NSObject+ScreenRatio.h */,
+				7AA7DE141A8B4B3200B5CF01 /* NSObject+ScreenRatio.m */,
 			);
 			path = "适配Demo";
 			sourceTree = "<group>";
@@ -199,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3AD3861A89E1B000FF93CA /* 9654c5b5efbcb1f.jpeg in Resources */,
 				7AC113AC1A7CCFC400A6AB7F /* Main.storyboard in Resources */,
 				7AC113B11A7CCFC400A6AB7F /* LaunchScreen.xib in Resources */,
 				7AC113AE1A7CCFC400A6AB7F /* Images.xcassets in Resources */,
@@ -220,8 +251,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AC113A91A7CCFC400A6AB7F /* ViewController.m in Sources */,
+				7AABF4811A8C3FF3002BF64C /* MainVC.m in Sources */,
+				7A3AD3841A89B88100FF93CA /* model.m in Sources */,
+				7AA7DE181A8B4FF800B5CF01 /* AppDelegate+ScreenRatio.m in Sources */,
+				7A3AD3811A89AEC900FF93CA /* MyTableViewCell.m in Sources */,
 				7AC113A61A7CCFC400A6AB7F /* AppDelegate.m in Sources */,
 				7AC113A31A7CCFC400A6AB7F /* main.m in Sources */,
+				7AA7DE151A8B4B3200B5CF01 /* NSObject+ScreenRatio.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +379,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/xiaxiangquan/Desktop/适配Demo/PrefixHeader.pch";
 				INFOPLIST_FILE = "适配Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -353,9 +391,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/xiaxiangquan/Desktop/适配Demo/PrefixHeader.pch";
 				INFOPLIST_FILE = "适配Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -412,6 +452,7 @@
 				7AC113C21A7CCFC500A6AB7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AC113C31A7CCFC500A6AB7F /* Build configuration list for PBXNativeTarget "适配DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +461,7 @@
 				7AC113C51A7CCFC500A6AB7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
